@@ -1,0 +1,84 @@
+:root {
+    --font-family: "Georgia", sans-serif;
+    --second-family: "Arial", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container {}
+
+.header {}
+
+.logo {}
+
+.title {
+
+    font-weight: 400;
+    font-size: 32px;
+
+
+
+}
+
+.nav {}
+
+.nav__list {
+    display: flex;
+    column-gap: 20px;
+}
+
+.nav__item {}
+
+.nav__link {
+
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+.hero__content {}
+
+.hero__img-wrap {
+    align-content: center;
+}
+
+.hero__desc {}
+
+.hero-title {
+
+    font-weight: 400;
+    font-size: 44px;
+
+
+}
+
+.subtitle {
+
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+.hero__subtitle {}
+
+.btn-wrap {
+    border-radius: 100px;
+    padding: 15px 45px;
+    background-color: pink;
+    width: 207px;
+    height: 52px;
+}
+
+.btn {
+
+    font-weight: 400;
+    font-size: 17px;
+    color: var(--color-dark-3xl)
+}
